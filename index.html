@@ -1,108 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <script src="./script.js" defer></script>
 
     <title>Sobre Servidor</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-    <h1>
-        Bem vindo á <br>
+      <h1>
+        Bem vindo á <br />
         Morango Esmeralda
-    </h1>
-    <img src="https://images.unsplash.com/photo-1594282241894-4da286138f44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1167&q=80" alt="">
+      </h1>
+      <img
+        src="https://images.unsplash.com/photo-1594282241894-4da286138f44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1167&q=80"
+        alt=""
+      />
 
-    <a href="#sec">Sobre</a>
+      <a href="#sec">Sobre</a>
+    </header>
 
-</header>
+    <main id="sec">
+      <section class="grid">
+        <div
+          class="wrapper"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
+          <h2>Servidor HTTP</h2>
+          <p>
+            HTTP é sigla de HyperText Transfer Protocol que em português
+            significa "Protocolo de Transferência de Hipertexto". É um protocolo
+            de comunicação entre sistemas de informação que permite a
+            transferência de dados entre redes de computadores, principalmente
+            na World Wide Web (Internet).
+          </p>
+        </div>
+        <div
+          class="wrapper"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
+          <h2>Como Funciona Servidor HTTP</h2>
+          <p>
+            A comunicação usando o protocolo HTTP funciona basicamente em duas
+            pontas: a partir das solicitações do lado do usuário, também chamado
+            de cliente, e em direção ao lado de um servidor web. O cliente usa
+            um navegador para tal comunicação e seu lado sempre começa essa
+            comunicação, e nunca os servidores.
+          </p>
+        </div>
+        <div
+          class="wrapper"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
+          <h2>Valor Domínio e Hospedagem</h2>
+          <p>
+            Com base no site
+            <a href="https://www.hostinger.com.br/">hostinger</a>, o valor varia
+            de R$ 44,89 à R$ 139,99, mas depende do site escolhido.
+          </p>
+        </div>
+        <div
+          class="wrapper"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
+          <h2>Consumo de Servidor</h2>
+          <p>
+            De acordo com o site
+            <a href="https://itstillworks.com/software/">Ehow.com</a>, um
+            servidor pode utilizar entre 500 e 1,200 watts por hora.
+          </p>
+        </div>
+        <div
+          class="wrapper"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
+          <h2>Tolerância de Falhas de um Servidor</h2>
+          <p>
+            A tolerância a falhas descreve um nível superior de disponibilidade
+            caracterizado por 5 noves horas de atividade (99,999%) ou melhor. Os
+            sistemas tolerantes a falhas são capazes de fornecer esses níveis de
+            disponibilidade, porque podem "tolerar" ou suportar tanto "falhas"
+            ou falhas de hardware como de software.
+          </p>
+        </div>
+        <div
+          class="wrapper"
+          data-aos="fade-up"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
+          <h2>Downtime e Disponibilidade de um Servidor</h2>
+          <p>
+            Garantir 100% de disponibilidade é algo praticamente impossível por
+            diversos fatores, que incluem desde a infraestrutura, até a
+            segurança e nível de serviço, entre outros, dos serviços de
+            provedores com os quais sua empresa opera.
+            <br />
+            Um servidor HTTP altamente disponível é instalado em dois nós em um
+            cluster; um nó primário e um nó de espera. Se o nó primário falhar,
+            as operações do servidor HTTP poderão ser restauradas imediatamente
+            no nó de espera.
+          </p>
+        </div>
+      </section>
+    </main>
 
-<main id="sec">
-    <section class="grid">
-        <div class="wrapper" data-aos="fade-up" data-aos-offset="500"
-        data-aos-duration="2000">
-            <h2>
-                Servidor HTTP
-            </h2>
-            <p>
-                HTTP é sigla de HyperText Transfer Protocol que em português significa "Protocolo de Transferência de Hipertexto". 
-                É um protocolo de comunicação entre sistemas de informação que permite a transferência de dados entre redes de computadores, 
-                principalmente na World Wide Web (Internet).
-            </p>
-        </div>
-        <div class="wrapper" data-aos="fade-up" data-aos-offset="500"
-        data-aos-duration="2000">
-            <h2>
-               Como Funciona Servidor HTTP
-            </h2>
-            <p>
-                A comunicação usando o protocolo HTTP funciona basicamente em duas pontas: a partir das solicitações do lado do usuário, 
-                também chamado de cliente, e em direção ao lado de um servidor web. O cliente usa um navegador para tal comunicação e seu lado
-                 sempre começa essa comunicação, e nunca os servidores.
-            </p>
-        </div>
-        <div class="wrapper" data-aos="fade-up" data-aos-offset="500"
-        data-aos-duration="2000">
-            <h2>
-               Valor Domínio e Hospedagem
-            </h2>
-            <p>
-                Com base no site <a href="https://www.hostinger.com.br/">hostinger</a>, o valor varia de R$ 44,89 à R$ 139,99, mas depende do site escolhido.
-            </p>
-        </div>
-        <div class="wrapper" data-aos="fade-up" data-aos-offset="500"
-        data-aos-duration="2000">
-            <h2>
-               Consumo de Servidor
-            </h2>
-            <p>
-                De acordo com o site <a href="https://itstillworks.com/software/">Ehow.com</a>, um servidor pode utilizar entre 500 e 1,200 watts por hora.
-            </p>
-        </div>
-        <div class="wrapper" data-aos="fade-up" data-aos-offset="500"
-        data-aos-duration="2000">
-            <h2>
-                Tolerância de Falhas de um Servidor
-            </h2>
-            <p>
-                A tolerância a falhas descreve um nível superior de disponibilidade caracterizado por 5 noves horas de atividade (99,999%) ou melhor. 
-                Os sistemas tolerantes a falhas são capazes de fornecer esses níveis de disponibilidade, porque podem "tolerar" ou suportar tanto "falhas" ou 
-                falhas de hardware como de software.
-            </p>
-        </div>
-        <div class="wrapper" data-aos="fade-up" data-aos-offset="500"
-        data-aos-duration="2000">
-            <h2>
-                Downtime e Disponibilidade de um Servidor
-            </h2>
-            <p>
-                Garantir 100% de disponibilidade é algo praticamente impossível por diversos fatores, que incluem desde a infraestrutura, até a segurança
-                e nível de serviço, entre outros, dos serviços de provedores com os quais sua empresa opera.
-                    <br>
-                Um servidor HTTP altamente disponível é instalado em dois nós em um cluster; um nó primário e um nó de espera. Se o nó primário falhar, 
-                as operações do servidor HTTP poderão ser restauradas imediatamente no nó de espera.
-            </p>
-        </div>
-    </section>
-</main>
-
-<footer>
-    <h4>Feito por <a href="https://www.linkedin.com/in/kauan-paiano-rossa-845802269/" target="_blank">Kauan Paiano Rossa</a></h4> 
-</footer>
-
-</body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+    <footer>
+      <h4>
+        Feito por
+        <a
+          href="https://www.linkedin.com/in/kauan-paiano-rossa-845802269/"
+          target="_blank"
+          >Kauan Paiano Rossa</a
+        >
+      </h4>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
   </script>
 </html>
